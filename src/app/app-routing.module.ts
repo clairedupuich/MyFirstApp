@@ -26,6 +26,10 @@ const routes: Routes = [
   {
     path: 'formulaire',
     loadChildren: () => import('./formulaire/formulaire.module').then( m => m.FormulairePageModule)
+  },
+  {
+    path: 'inbox',
+    loadChildren: () => import('./inbox/inbox.module').then( m => m.InboxPageModule)
   }
 ];
 

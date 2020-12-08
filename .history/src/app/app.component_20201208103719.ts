@@ -14,7 +14,7 @@ export class AppComponent implements OnInit {
   public appPages = [
     {
       title: 'Inbox',
-      url: '/Inbox',
+      url: '/folder/Inbox',
       icon: 'mail',
       badge_value: 1,
       badge_color: "success"
@@ -44,7 +44,7 @@ export class AppComponent implements OnInit {
       title: 'My Favorites',
       url: '/favorites',
       icon: 'heart',
-      badge_value: 5,
+      badge_value: 4,
       badge_color: "primary"     
      
     },
@@ -52,7 +52,7 @@ export class AppComponent implements OnInit {
       title: 'Archived',
       url: '/folder/Archived',
       icon: 'archive',
-      badge_value: 6,
+      badge_value: 5,
       badge_color: "tertiary"
     },
     {

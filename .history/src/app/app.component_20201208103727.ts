@@ -14,7 +14,7 @@ export class AppComponent implements OnInit {
   public appPages = [
     {
       title: 'Inbox',
-      url: '/Inbox',
+      url: '/folder/Inbox',
       icon: 'mail',
       badge_value: 1,
       badge_color: "success"

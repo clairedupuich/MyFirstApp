@@ -14,15 +14,15 @@ export class AppComponent implements OnInit {
   public appPages = [
     {
       title: 'Inbox',
-      url: '/Inbox',
+      url: '/folder/Inbox',
       icon: 'mail',
       badge_value: 1,
       badge_color: "success"
     },
     {
-      title: 'formulaire',
-      url: '/formulaire',
-      icon: 'heart',
+      title: 'claire',
+      url: '/test-page',
+      icon: 'basketball',
       badge_value: 2,
       badge_color: "secondary"
     },
@@ -30,21 +30,21 @@ export class AppComponent implements OnInit {
       title: 'claire',
       url: '/test-page',
       icon: 'basketball',
-      badge_value: 3,
+      badge_value: 2,
       badge_color: "secondary"
     },
     {
       title: 'Outbox',
       url: '/folder/Outbox',
       icon: 'paper-plane',
-      badge_value: 4,
+      badge_value: 3,
       badge_color: "danger"
     },
     {
       title: 'My Favorites',
       url: '/favorites',
       icon: 'heart',
-      badge_value: 5,
+      badge_value: 4,
       badge_color: "primary"     
      
     },
@@ -52,7 +52,7 @@ export class AppComponent implements OnInit {
       title: 'Archived',
       url: '/folder/Archived',
       icon: 'archive',
-      badge_value: 6,
+      badge_value: 5,
       badge_color: "tertiary"
     },
     {
